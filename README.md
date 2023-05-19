@@ -17,20 +17,20 @@ L'approche CQRS permet une scalabilité et une performance optimisées, car les 
 
 
 ## Configuration et déploiement
-1-Clonez ce référentiel sur votre machine locale.
-2-Assurez-vous d'avoir Java et Spring Framework installés.
-3-Configurez les informations de la base de données dans chaque microservice.
-4-Exécutez chaque microservice individuellement en utilisant les commandes mvn spring-boot:run.
-5-Les microservices seront disponibles sur les ports spécifiés dans leur configuration.
+1. Clonez ce référentiel sur votre machine locale.
+2. Assurez-vous d'avoir Java et Spring Framework installés.
+3. Configurez les informations de la base de données dans chaque microservice.
+4. Exécutez chaque microservice individuellement en utilisant les commandes mvn spring-boot:run.
+5. Les microservices seront disponibles sur les ports spécifiés dans leur configuration.
 
 
 ## Contribution
 Les contributions à cette application sont les bienvenues. Si vous souhaitez contribuer, veuillez suivre les étapes suivantes :
 
-1-Fork ce référentiel.
-2-Créez une branche pour votre fonctionnalité ou votre correctif.
-3-Effectuez les modifications nécessaires.
-4-Soumettez une demande d'extraction.
+1. Fork ce référentiel.
+2. Créez une branche pour votre fonctionnalité ou votre correctif.
+3. Effectuez les modifications nécessaires.
+4. Soumettez une demande d'extraction.
 Nous apprécions vos commentaires et vos suggestions pour améliorer cette application.
 
 
