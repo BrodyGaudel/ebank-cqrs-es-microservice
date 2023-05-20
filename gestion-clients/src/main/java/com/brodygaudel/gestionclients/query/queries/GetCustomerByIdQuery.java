@@ -1,0 +1,12 @@
+package com.brodygaudel.gestionclients.query.queries;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+public class GetCustomerByIdQuery {
+    private String id;
+}

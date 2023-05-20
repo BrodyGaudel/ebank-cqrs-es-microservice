@@ -19,9 +19,7 @@ public class MappersImpl implements Mappers {
                     customer.getPlaceOfBirth(),
                     customer.getDateOfBirth(),
                     customer.getNationality(),
-                    customer.getCin(),
-                    customer.getCreation(),
-                    customer.getLastUpdate()
+                    customer.getCin()
             );
         }catch (Exception e){
             return null;
