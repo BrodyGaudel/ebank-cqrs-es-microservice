@@ -27,4 +27,5 @@ public class Account {
     @Column(unique = true)
     private String customerId;
     private Date creation;
+    private Date lastUpdate;
 }
