@@ -8,7 +8,7 @@ Ce microservice est responsable de la gestion des informations des clients de la
 Ce microservice gère les comptes bancaires des clients. Il permet la création de nouveaux comptes, l'association de comptes à des clients existants et la récupération des informations sur les comptes.
 
 ## Microservice : Gestion des opérations
-Ce microservice gère les opérations bancaires telles que les dépôts, les retraits et les virements. Il fournit des API pour effectuer ces opérations sur les comptes des clients.
+Ce microservice gère les opérations bancaires telles que les dépôts, les retraits et les virements. Il fournit des API pour effectuer ces opérations sur les comptes des clients. Il contient également l'API XE pour la conversion des dévises. vous pouvez obténir vos credential sur https://www.xe.com/xecurrencydata/ 
 
 ## Architecture CQRS et Event Sourcing
 L'architecture de cette application est basée sur le modèle CQRS et Event Sourcing. Cela signifie que les opérations de lecture et d'écriture sont séparées (CQRS) et que toutes les modifications de l'état de l'application sont enregistrées en tant qu'événements (Event Sourcing).
@@ -18,9 +18,9 @@ L'approche CQRS permet une scalabilité et une performance optimisées, car les 
 
 ## Configuration et déploiement
 1. Clonez ce référentiel sur votre machine locale.
-2. Assurez-vous d'avoir Java et Spring Framework installés.
+2. Assurez-vous d'avoir Java (JDK17 minimum), Maven et MySQL installés.
 3. Configurez les informations de la base de données dans chaque microservice.
-4. Exécutez chaque microservice individuellement en utilisant les commandes mvn spring-boot:run.
+4. Exécutez chaque microservice individuellement en utilisant les commandes mvn spring-boot:run dans l'ordre suivant: discovery, gateway, gestion-clients, gestion-comptes, gestion-operation.
 5. Les microservices seront disponibles sur les ports spécifiés dans leur configuration.
 
 
