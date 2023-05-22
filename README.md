@@ -1,5 +1,8 @@
 ## Application e-Bank
 L'application e-Bank est une solution bancaire en ligne développée en utilisant Java, Spring Boot, Axon Framework, basée sur l'architecture CQRS (Command Query Responsibility Segregation) et Event Sourcing. Elle est composée de trois microservices principaux : gestion des clients, gestion des comptes et gestion des opérations.
+<p  align="center">
+<img src="https://raw.githubusercontent.com/BrodyGaudel/ebank-cqrs-es-microservice/main/microservice.jpg?token=GHSAT0AAAAAAB54F5TEJ54IK6R7SSSKFTSQZDL77PA">             
+<br>
 
 ## Microservice : Gestion des clients
 Ce microservice est responsable de la gestion des informations des clients de la banque. Il fournit des fonctionnalités telles que la création de nouveaux clients, la mise à jour des informations clients existantes et la récupération des détails des clients.
