@@ -35,8 +35,8 @@ public class XeRestController {
 	
 	@GetMapping("/convert/{from}/{to}/{amount}")
 	public ConvertFromResponse convert(@PathVariable(name="from") String from, @PathVariable(name="to") String to, @PathVariable(name="amount") double amount) throws XecdApiException {
-		String accountId = "gaudelsoftware174226874";
-		String apiKey = "4t5qqc23fdh6hea8g7bhlc2gba";
+		String accountId = "your xe account id";
+		String apiKey = "your xe apiKey";
 		
 		return xecdApiService.convertFrom(
 				accountId, apiKey, from, to, amount, false);
