@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.brodygaudel</groupId>
     <artifactId>gestion-clients</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>gestion-clients</name>
     <description>gestion-clients</description>
     <properties>
