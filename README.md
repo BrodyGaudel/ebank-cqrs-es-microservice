@@ -14,6 +14,9 @@ Ce microservice gère les opérations bancaires telles que les dépôts, les ret
 L'architecture de cette application est basée sur le modèle CQRS et Event Sourcing. Cela signifie que les opérations de lecture et d'écriture sont séparées (CQRS) et que toutes les modifications de l'état de l'application sont enregistrées en tant qu'événements (Event Sourcing).
 
 L'approche CQRS permet une scalabilité et une performance optimisées, car les opérations de lecture et d'écriture peuvent être traitées indépendamment. De plus, l'utilisation de l'Event Sourcing assure la traçabilité complète de tous les événements qui ont modifié l'état de l'application, permettant ainsi de reconstruire l'état actuel à partir de l'historique des événements.
+<p  align="center">
+<img src="https://user-images.githubusercontent.com/57298219/199542569-0782f133-8b66-4412-a447-a21788b8f735.jpg">             
+<br>
 
 
 ## Configuration et déploiement
