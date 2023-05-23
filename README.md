@@ -29,6 +29,14 @@ L'approche CQRS permet une scalabilité et une performance optimisées, car les 
 4. Exécutez chaque microservice individuellement en utilisant les commandes mvn spring-boot:run dans l'ordre suivant: discovery, gateway, gestion-clients, gestion-comptes, gestion-operation.
 5. Les microservices seront disponibles sur les ports spécifiés dans leur configuration.
 
+## Démarage de l'application
+1. le service ***Eureka Discovery Server*** demare sur le port 8761 accéssible via http://localhost:8761 
+2. Gateway demare sur le port 8888 accéssible via http://localhost:8888
+3. Le microservice ***gestion des client*** démare sous le port 8801 et l'API swagger-doc est accessible via http://localhost:8801/customer/swagger-ui/index.html
+4. Le microservice ***gestion des comptes*** démare sous le port 8802 et l'API swagger-doc est accessible via http://localhost:8802/account/swagger-ui/index.html
+5. Le microservice ***gestion des opération*** démare sous le port 8803 et l'API swagger-doc est accessible via http://localhost:8803/operation/swagger-ui/index.html
+
+
 
 ## Contribution
 Les contributions à cette application sont les bienvenues. Si vous souhaitez contribuer, veuillez suivre les étapes suivantes :
