@@ -36,40 +36,7 @@ L'approche CQRS permet une scalabilité et une performance optimisées, car les 
 4. Le microservice ***gestion des comptes*** démare sous le port 8802 et l'API swagger-doc est accessible via http://localhost:8802/account/swagger-ui/index.html
 5. Le microservice ***gestion des opération*** démare sous le port 8803 et l'API swagger-doc est accessible via http://localhost:8803/operation/swagger-ui/index.html
 
-## Capture
-1. Eureka Discovery Server
-<p  align="center">
-<img src="https://raw.githubusercontent.com/BrodyGaudel/ebank-cqrs-es-microservice/main/images-illustration/eureka%20.png">             
-<br>
-<p  align="center">
-<img src="https://raw.githubusercontent.com/BrodyGaudel/ebank-cqrs-es-microservice/main/images-illustration/eureka%202.png">             
-<br>
-
-2. Swagger-UI du microservices gestion des clients
-<p  align="center">
-<img src="https://raw.githubusercontent.com/BrodyGaudel/ebank-cqrs-es-microservice/main/images-illustration/customer_swagger_ui.png">             
-<br>
-<p  align="center">
-<img src="https://raw.githubusercontent.com/BrodyGaudel/ebank-cqrs-es-microservice/main/images-illustration/un_client.png">             
-<br>
-
-3. Swagger-UI du microservices gestion des comptes
-<p  align="center">
-<img src="https://raw.githubusercontent.com/BrodyGaudel/ebank-cqrs-es-microservice/main/images-illustration/account_swagger_ui.png">             
-<br>
-<p  align="center">
-<img src="https://raw.githubusercontent.com/BrodyGaudel/ebank-cqrs-es-microservice/main/images-illustration/liste_des_comptes.png">             
-<br>
-
-4. Swagger-UI du microservices gestion des opérations
-<p  align="center">
-<img src="https://raw.githubusercontent.com/BrodyGaudel/ebank-cqrs-es-microservice/main/images-illustration/operation_swagger_ui.png">             
-<br>
-<p  align="center">
-<img src="https://raw.githubusercontent.com/BrodyGaudel/ebank-cqrs-es-microservice/main/images-illustration/liste_operation_par_comptes.png">             
-<br>
-
-
+6. Pour plus d'illustration, allez sur https://github.com/BrodyGaudel/ebank-cqrs-es-microservice/tree/main/images-illustration
 
 ## Contribution
 Les contributions à cette application sont les bienvenues. Si vous souhaitez contribuer, veuillez suivre les étapes suivantes :
